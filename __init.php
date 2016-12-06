@@ -1,4 +1,10 @@
 <?php
+/**
+* Author:    M V Cuccaro
+* Created:   11.2014
+* 
+*/
+
 chdir('/phenegade/root/goes/here/');
 INCLUDE_ONCE('source/phenegade_functions.php');
 declare(ticks=1);
