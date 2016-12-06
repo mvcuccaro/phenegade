@@ -1,0 +1,7 @@
+<?php
+$menu = array();
+$menu['wall']	= array(
+							'module'		=> 'phenewall',
+							'help'			=> 'View the Phenegade Wall'
+);
+?>
