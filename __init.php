@@ -5,7 +5,7 @@
 * 
 */
 
-chdir('/phenegade/root/goes/here/');
+chdir('./');
 INCLUDE_ONCE('source/phenegade_functions.php');
 declare(ticks=1);
 function tick_handler() { pcntl_signal_dispatch(); }

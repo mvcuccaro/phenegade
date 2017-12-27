@@ -18,7 +18,7 @@ if( isset($dropfile_payload['module']) )
 {
 	$phen_mod	= $dropfile_payload['module'];
 	phenegadeLog('Dispatch - Module Found: ' . $phen_mod);
-	$shell_command	= 'modules/' . $phen_mod . '/start.php ' . $dropfile_path;
+	$shell_command	= 'php modules/' . $phen_mod . '/start.php ' . $dropfile_path;
 	phenExec($shell_command);
 }
 

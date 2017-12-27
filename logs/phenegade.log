@@ -1,0 +1,113 @@
+[7881]Phenegade Node Loading
+[7881]Displaying View: ansi/loading.ans
+[7881]phenExec: ./dispatch.php dropfiles/7881-1514353840.dat
+[7881]phenExec: ./dispatch.php dropfiles/7881-1514353841.dat
+[7881]phenExec: ./dispatch.php dropfiles/7881-1514353842.dat
+[7935]Phenegade Node Loading
+[7935]Displaying View: ansi/loading.ans
+[7935]phenExec: ./dispatch.php dropfiles/7935-1514353860.dat
+[7935]Dispatch.php Begin
+[7935]Dispatch - Module Found: logon
+[7935]phenExec: modules/logon/start.php dropfiles/7935-1514353860.dat
+[7935]phenExec: ./dispatch.php dropfiles/7935-1514353861.dat
+[7935]Dispatch.php Begin
+[7935]Dispatch - Module Found: logon
+[7935]phenExec: modules/logon/start.php dropfiles/7935-1514353861.dat
+[7971]Phenegade Node Loading
+[7971]Displaying View: ansi/loading.ans
+[7971]phenExec: ./dispatch.php dropfiles/7971-1514353874.dat
+[7971]Dispatch.php Begin
+[7971]Dispatch - Module Found: logon
+[7971]phenExec: modules/logon/start.php dropfiles/7971-1514353874.dat
+[7971]phenExec: ./dispatch.php dropfiles/7971-1514353875.dat
+[7971]Dispatch.php Begin
+[7971]Dispatch - Module Found: logon
+[7971]phenExec: modules/logon/start.php dropfiles/7971-1514353875.dat
+[8095]Phenegade Node Loading
+[8095]Displaying View: ansi/loading.ans
+[8095]phenExec: php ./dispatch.php dropfiles/8095-1514353993.dat
+[8095]Dispatch.php Begin
+[8095]Dispatch - Module Found: logon
+[8095]phenExec: modules/logon/start.php dropfiles/8095-1514353993.dat
+[8108]Phenegade Node Loading
+[8108]Displaying View: ansi/loading.ans
+[8108]phenExec: php ./dispatch.php dropfiles/8108-1514354001.dat
+[8108]Dispatch.php Begin
+[8108]Dispatch - Module Found: logon
+[8108]phenExec: modules/logon/start.php dropfiles/8108-1514354001.dat
+[8108]phenExec: php ./dispatch.php dropfiles/8108-1514354002.dat
+[8108]Dispatch.php Begin
+[8108]Dispatch - Module Found: logon
+[8108]phenExec: modules/logon/start.php dropfiles/8108-1514354002.dat
+[8228]Phenegade Node Loading
+[8228]Displaying View: ansi/loading.ans
+[8228]phenExec: php ./dispatch.php dropfiles/8228-1514354041.dat
+[8228]Dispatch.php Begin
+[8228]Dispatch - Module Found: logon
+[8228]phenExec: modules/logon/start.php dropfiles/8228-1514354041.dat
+[8470]Phenegade Node Loading
+[8470]Displaying View: ansi/loading.ans
+[8470]phenExec: php ./dispatch.php dropfiles/8470-1514354150.dat
+[8470]Dispatch.php Begin
+[8470]Dispatch - Module Found: logon
+[8470]phenExec: php modules/logon/start.php dropfiles/8470-1514354150.dat
+[]Displaying View: ansi/logon.ans
+[]Converting View To Dos
+[8470]Begin Module Login
+[8470]Displaying View: ansi/main.ans
+[8470]Reading STDIN
+[8470]Selected Input: motd
+[8470]Displaying View: ansi/motd.asc
+[8470]Reading STDIN
+[8470]Selected Input: wall
+[8470]phenExec: php ./dispatch.php dropfiles/8470-1514354160.dat
+[8470]Dispatch.php Begin
+[8470]Dispatch - Module Found: phenewall
+[8470]phenExec: php modules/phenewall/start.php dropfiles/8470-1514354160.dat
+[8470]Phenewall Begin
+[8470]Displaying View: modules/phenewall/pre.ans
+[8470]Converting View To Dos
+[8470]Displaying View: modules/phenewall/wall.asc
+[8470]Converting View To Dos
+[8470]Do you want to write on the wall = y
+[8470]phenFileAppend: modules/phenewall/wall.asc
+[8470]Displaying View: modules/phenewall/pre.ans
+[8470]Converting View To Dos
+[8470]Displaying View: modules/phenewall/wall.asc
+[8470]Converting View To Dos
+[8470]phenPressAnyKey
+[8470]Displaying View: ansi/main.ans
+[8470]Reading STDIN
+[8470]Selected Input: wall
+[8470]phenExec: php ./dispatch.php dropfiles/8470-1514354165.dat
+[8470]Dispatch.php Begin
+[8470]Dispatch - Module Found: phenewall
+[8470]phenExec: php modules/phenewall/start.php dropfiles/8470-1514354165.dat
+[8470]Phenewall Begin
+[8470]Displaying View: modules/phenewall/pre.ans
+[8470]Converting View To Dos
+[8470]Displaying View: modules/phenewall/wall.asc
+[8470]Converting View To Dos
+[8470]Do you want to write on the wall = n
+[8470]phenPressAnyKey
+[8470]Displaying View: ansi/main.ans
+[8470]Reading STDIN
+[8470]Selected Input: exit
+[8470]Displaying View: ansi/goodbye.ans
+[8470]User Exit
+[8540]Phenegade Node Loading
+[8540]Displaying View: ansi/loading.ans
+[8561]Phenegade Node Loading
+[8561]Displaying View: ansi/loading.ans
+[8561]phenExec: php ./dispatch.php dropfiles/8561-1514354285.dat
+[8561]Dispatch.php Begin
+[8561]Dispatch - Module Found: logon
+[8561]phenExec: php modules/logon/start.php dropfiles/8561-1514354285.dat
+[]Displaying View: ansi/logon.ans
+[]Converting View To Dos
+[8561]Begin Module Login
+[8561]Displaying View: ansi/main.ans
+[8561]Reading STDIN
+[8561]Selected Input: exit
+[8561]Displaying View: ansi/goodbye.ans
+[8561]User Exit

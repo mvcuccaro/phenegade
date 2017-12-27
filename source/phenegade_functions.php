@@ -89,7 +89,7 @@ function dispatch($arg_pid, $arg_input)
 	fwrite($dropfile_handle, serialize($arg_input));
 	fclose($dropfile_handle);
 
-	$pid 				= phenExec('./dispatch.php ' . $dropfile_path);
+	$pid 				= phenExec('php ./dispatch.php ' . $dropfile_path);
 
 	$dropfile_payload	= unserialize(file_get_contents($dropfile_path));
 	unlink($dropfile_path);
