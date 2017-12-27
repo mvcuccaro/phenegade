@@ -111,3 +111,71 @@
 [8561]Selected Input: exit
 [8561]Displaying View: ansi/goodbye.ans
 [8561]User Exit
+[8818]Phenegade Node Loading
+[8818]Displaying View: ansi/loading.ans
+[8818]phenExec: php ./dispatch.php dropfiles/8818-1514354615.dat
+[8818]Dispatch.php Begin
+[8818]Dispatch - Module Found: logon
+[8818]phenExec: php modules/logon/start.php dropfiles/8818-1514354615.dat
+[]Displaying View: ansi/logon.ans
+[]Converting View To Dos
+[8818]Begin Module Login
+[8818]Displaying View: ansi/main.ans
+[8818]Reading STDIN
+[8818]Selected Input: motd
+[8818]Displaying View: ansi/motd.asc
+[8818]Reading STDIN
+[8818]Selected Input: who
+[8818]phenExec: who | unix2dos
+[8818]phenPressAnyKey
+[8818]Reading STDIN
+[8818]Selected Input: exit
+[8818]Displaying View: ansi/goodbye.ans
+[8818]User Exit
+[8830]Phenegade Node Loading
+[8830]Displaying View: ansi/loading.ans
+[8830]phenExec: php ./dispatch.php dropfiles/8830-1514354630.dat
+[8830]Dispatch.php Begin
+[8830]Dispatch - Module Found: logon
+[8830]phenExec: php modules/logon/start.php dropfiles/8830-1514354630.dat
+[]Displaying View: ansi/logon.ans
+[]Converting View To Dos
+[8830]Begin Module Login
+[8830]Displaying View: ansi/main.ans
+[8830]Reading STDIN
+[8830]Selected Input: wall
+[8830]phenExec: php ./dispatch.php dropfiles/8830-1514354636.dat
+[8830]Dispatch.php Begin
+[8830]Dispatch - Module Found: phenewall
+[8830]phenExec: php modules/phenewall/start.php dropfiles/8830-1514354636.dat
+[8830]Phenewall Begin
+[8830]Displaying View: modules/phenewall/pre.ans
+[8830]Converting View To Dos
+[8830]Displaying View: modules/phenewall/wall.asc
+[8830]Converting View To Dos
+[8830]Do you want to write on the wall = y
+[8830]phenFileAppend: modules/phenewall/wall.asc
+[8830]Displaying View: modules/phenewall/pre.ans
+[8830]Converting View To Dos
+[8830]Displaying View: modules/phenewall/wall.asc
+[8830]Converting View To Dos
+[8830]phenPressAnyKey
+[8830]Displaying View: ansi/main.ans
+[8830]Reading STDIN
+[8830]Selected Input: wall
+[8830]phenExec: php ./dispatch.php dropfiles/8830-1514354662.dat
+[8830]Dispatch.php Begin
+[8830]Dispatch - Module Found: phenewall
+[8830]phenExec: php modules/phenewall/start.php dropfiles/8830-1514354662.dat
+[8830]Phenewall Begin
+[8830]Displaying View: modules/phenewall/pre.ans
+[8830]Converting View To Dos
+[8830]Displaying View: modules/phenewall/wall.asc
+[8830]Converting View To Dos
+[8830]Do you want to write on the wall = n
+[8830]phenPressAnyKey
+[8830]Displaying View: ansi/main.ans
+[8830]Reading STDIN
+[8830]Selected Input: exit
+[8830]Displaying View: ansi/goodbye.ans
+[8830]User Exit
