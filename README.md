@@ -9,7 +9,7 @@ There may or may not be a demonstration running at 35.162.14.69 7575 available v
 
 ## Getting Started
 Download or clone this repo. 
-Changed to the directory that you downloaded phenegade into. 
+Change to the directory that you downloaded phenegade into. 
 At the command prompt type:
 >php go.php
 
