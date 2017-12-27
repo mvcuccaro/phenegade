@@ -179,3 +179,24 @@
 [8830]Selected Input: exit
 [8830]Displaying View: ansi/goodbye.ans
 [8830]User Exit
+[9187]Phenegade Node Loading
+[9187]Displaying View: ansi/loading.ans
+[9187]phenExec: php ./dispatch.php dropfiles/9187-1514355534.dat
+[9187]Dispatch.php Begin
+[9187]Dispatch - Module Found: logon
+[9187]phenExec: php modules/logon/start.php dropfiles/9187-1514355534.dat
+[]Displaying View: ansi/logon.ans
+[]Converting View To Dos
+[9187]Begin Module Login
+[9187]Displaying View: ansi/main.ans
+[9187]Reading STDIN
+[9187]Selected Input: wall
+[9187]phenExec: php ./dispatch.php dropfiles/9187-1514355609.dat
+[9187]Dispatch.php Begin
+[9187]Dispatch - Module Found: phenewall
+[9187]phenExec: php modules/phenewall/start.php dropfiles/9187-1514355609.dat
+[9187]Phenewall Begin
+[9187]Displaying View: modules/phenewall/pre.ans
+[9187]Converting View To Dos
+[9187]Displaying View: modules/phenewall/wall.asc
+[9187]Converting View To Dos
