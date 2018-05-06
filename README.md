@@ -5,8 +5,6 @@ It uses a simple dispatcher to swap between modules/plugins feeding data between
 It can be used as a nice telnet bbs if served up by inetd. 
 I named it phenegade in honor of my favorite bbs software - Renegade BBS. 
 
-There may or may not be a demonstration running at 35.162.14.69 7575 available via a telnet client on linux or a good bbs client on windows/dos (windows telnet doesnt render the default ansi very good at all) - Just log in with username 'guest'
-
 ![alt text](https://github.com/mvcuccaro/phenegade/blob/master/screenshots/phenegade_main.jpg)
 ![alt text](https://github.com/mvcuccaro/phenegade/blob/master/screenshots/phenegade_wall.jpg)
 
